@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: ngngocminh/d9e8:php72-node12
+    steps:
+      - checkout
+      - run:
+          name: "Check Docker"
+          command: echo "Hi"
+      - run:
+          name: "Check Docker"
+          command: composer --version
