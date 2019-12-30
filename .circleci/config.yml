@@ -13,4 +13,4 @@ jobs:
           command: composer --version
       - run:
           name: "Check Node"
-          command: node -v
+          command: node -v && npm -v
