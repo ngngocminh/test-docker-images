@@ -9,5 +9,8 @@ jobs:
           name: "Check Docker"
           command: echo "Hi"
       - run:
-          name: "Check Docker"
+          name: "Check Composer"
           command: composer --version
+      - run:
+          name: "Check Node"
+          command: node -v
