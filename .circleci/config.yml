@@ -14,3 +14,6 @@ jobs:
       - run:
           name: "Check Node"
           command: node -v && npm -v
+      - run:
+          name: "Check PHPCS"
+          command: phpcs -i
